@@ -38,10 +38,10 @@
 
 <style lang="postcss">
 	.header-link {
-		@apply rounded-full px-3 py-1;
+		@apply rounded-full px-3 py-1 text-xs;
 	}
 	.active {
-		@apply bg-gray-200 font-bold;
+		@apply bg-gray-50 font-bold;
 	}
 
 	.inactive {
