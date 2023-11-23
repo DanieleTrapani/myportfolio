@@ -41,7 +41,7 @@
 		@apply rounded-full px-3 py-1 text-xs;
 	}
 	.active {
-		@apply bg-gray-50 font-bold;
+		@apply bg-gray-50 font-bold shadow-md;
 	}
 
 	.inactive {
