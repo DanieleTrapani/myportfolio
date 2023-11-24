@@ -21,7 +21,7 @@
 		</p>
 	</div>
 
-	<div class="bg-white p-4 rounded-2xl">
+	<div class="bg-white p-4 rounded-2xl mb-5">
 		<h4 class="font-bold text-xl mb-2">Tech Stack</h4>
 		<div class="flex gap-3 flex-wrap justify-between svg-container">
 			<a href="https://www.typescriptlang.org" target="_blank">
@@ -50,6 +50,15 @@
 			</a>
 		</div>
 	</div>
+
+	<div class="bg-white p-4 rounded-2xl flex justify-around">
+		<div class="button-link">
+			<a href="/projects">Projects</a>
+		</div>
+		<div class="button-link">
+			<a href="/contact">Contact</a>
+		</div>
+	</div>
 </main>
 
 <style lang="postcss">
@@ -57,6 +66,10 @@
 		background: -webkit-linear-gradient(left, #037bcb, #00a870);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
+	}
+
+	.button-link {
+		@apply rounded-full border-0 border-solid border-[#05B9C2] px-2 py-1 font-semibold shadow-sm shadow-[#03939b] duration-200 hover:scale-105 hover:shadow-md hover:shadow-[#03939bba];
 	}
 
 	@media (min-width: 375px) {
